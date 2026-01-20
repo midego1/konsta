@@ -13,11 +13,11 @@ import {
   ToolbarPane,
 } from 'konsta/react';
 import {
+  HouseFill,
   EnvelopeFill,
-  Calendar,
-  CloudUploadFill,
+  PersonFill,
 } from 'framework7-icons/react';
-import { MdEmail, MdToday, MdFileUpload } from 'react-icons/md';
+import { MdHome, MdEmail, MdPerson } from 'react-icons/md';
 
 export default function TabbarPage() {
   const isPreview = document.location.href.includes('examplePreview');
@@ -43,12 +43,12 @@ export default function TabbarPage() {
             icon={
               isTabbarIcons && (
                 <Icon
-                  ios={<EnvelopeFill className="w-7 h-7" />}
-                  material={<MdEmail className="w-6 h-6" />}
+                  ios={<HouseFill className="w-7 h-7" />}
+                  material={<MdHome className="w-6 h-6" />}
                 />
               )
             }
-            label={isTabbarLabels && 'Tab 1'}
+            label={isTabbarLabels && 'Home'}
           />
           <TabbarLink
             active={activeTab === 'tab-2'}
@@ -56,12 +56,12 @@ export default function TabbarPage() {
             icon={
               isTabbarIcons && (
                 <Icon
-                  ios={<Calendar className="w-7 h-7" />}
-                  material={<MdToday className="w-6 h-6" />}
+                  ios={<EnvelopeFill className="w-7 h-7" />}
+                  material={<MdEmail className="w-6 h-6" />}
                 />
               )
             }
-            label={isTabbarLabels && 'Tab 2'}
+            label={isTabbarLabels && 'Messages'}
           />
           <TabbarLink
             active={activeTab === 'tab-3'}
@@ -69,12 +69,12 @@ export default function TabbarPage() {
             icon={
               isTabbarIcons && (
                 <Icon
-                  ios={<CloudUploadFill className="w-7 h-7" />}
-                  material={<MdFileUpload className="w-6 h-6" />}
+                  ios={<PersonFill className="w-7 h-7" />}
+                  material={<MdPerson className="w-6 h-6" />}
                 />
               )
             }
-            label={isTabbarLabels && 'Tab 3'}
+            label={isTabbarLabels && 'Profile'}
           />
         </ToolbarPane>
       </Tabbar>
@@ -103,7 +103,7 @@ export default function TabbarPage() {
       {activeTab === 'tab-1' && (
         <Block strong inset className="space-y-4">
           <p>
-            <b>Tab 1</b>
+            <b>Home</b>
           </p>
           <p>
             <span>
@@ -136,7 +136,7 @@ export default function TabbarPage() {
       {activeTab === 'tab-2' && (
         <Block strong inset className="space-y-4">
           <p>
-            <b>Tab 2</b>
+            <b>Messages</b>
           </p>
           <p>
             <span>
@@ -169,7 +169,7 @@ export default function TabbarPage() {
       {activeTab === 'tab-3' && (
         <Block strong inset className="space-y-4">
           <p>
-            <b>Tab 3</b>
+            <b>Profile</b>
           </p>
           <p>
             <span>

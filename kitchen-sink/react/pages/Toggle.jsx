@@ -40,7 +40,7 @@ export default function TogglePage() {
           after={
             <Toggle
               component="div"
-              className="-my-1 k-color-brand-red"
+              className="-my-1 cc-color-brand-red"
               checked={checked2}
               onChange={() => setChecked2(!checked2)}
             />
@@ -52,7 +52,7 @@ export default function TogglePage() {
           after={
             <Toggle
               component="div"
-              className="-my-1 k-color-brand-green"
+              className="-my-1 cc-color-brand-green"
               checked={checked3}
               onChange={() => setChecked3(!checked3)}
             />
@@ -64,7 +64,7 @@ export default function TogglePage() {
           after={
             <Toggle
               component="div"
-              className="-my-1 k-color-brand-yellow"
+              className="-my-1 cc-color-brand-yellow"
               checked={checked4}
               onChange={() => setChecked4(!checked4)}
             />

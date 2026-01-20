@@ -25,16 +25,16 @@ export default function PreloaderPage() {
       <BlockTitle>Colors</BlockTitle>
       <Block strong inset className="grid grid-cols-4">
         <div className="text-center">
-          <Preloader className="k-color-brand-red" />
+          <Preloader className="cc-color-brand-red" />
         </div>
         <div className="text-center">
-          <Preloader className="k-color-brand-green" />
+          <Preloader className="cc-color-brand-green" />
         </div>
         <div className="text-center">
-          <Preloader className="k-color-brand-purple" />
+          <Preloader className="cc-color-brand-purple" />
         </div>
         <div className="text-center">
-          <Preloader className="k-color-brand-yellow" />
+          <Preloader className="cc-color-brand-yellow" />
         </div>
       </Block>
 

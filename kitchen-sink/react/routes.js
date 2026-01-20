@@ -5,6 +5,7 @@ import Buttons from './pages/Buttons.jsx';
 import Cards from './pages/Cards.jsx';
 import Checkbox from './pages/Checkbox.jsx';
 import Chips from './pages/Chips.jsx';
+import Components from './pages/Components.jsx';
 import ContactsList from './pages/ContactsList.jsx';
 import ContentBlock from './pages/ContentBlock.jsx';
 import DataTable from './pages/DataTable.jsx';
@@ -42,6 +43,7 @@ const routes = [
   Cards,
   Checkbox,
   Chips,
+  Components,
   ContactsList,
   ContentBlock,
   DataTable,

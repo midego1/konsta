@@ -67,7 +67,7 @@ export default function DialogPage() {
       <Dialog
         opened={alertOpened}
         onBackdropClick={() => setAlertOpened(false)}
-        title="Konsta UI"
+        title="CityCrew"
         content="Hello world!"
         buttons={
           <DialogButton strong onClick={() => setAlertOpened(false)}>
@@ -78,7 +78,7 @@ export default function DialogPage() {
       <Dialog
         opened={confirmOpened}
         onBackdropClick={() => setConfirmOpened(false)}
-        title="Konsta UI"
+        title="CityCrew"
         content="All good today?"
         buttons={
           <>

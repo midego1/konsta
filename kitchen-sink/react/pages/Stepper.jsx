@@ -388,7 +388,7 @@ export default function StepperPage() {
           <div>
             <Stepper
               value={value}
-              className="k-color-brand-red"
+              className="cc-color-brand-red"
               onPlus={increase}
               onMinus={decrease}
             />
@@ -397,7 +397,7 @@ export default function StepperPage() {
             <Stepper
               value={value}
               rounded
-              className="k-color-brand-green"
+              className="cc-color-brand-green"
               onPlus={increase}
               onMinus={decrease}
             />
@@ -408,7 +408,7 @@ export default function StepperPage() {
           <div>
             <Stepper
               value={value}
-              className="k-color-brand-yellow"
+              className="cc-color-brand-yellow"
               onPlus={increase}
               onMinus={decrease}
             />
@@ -417,7 +417,7 @@ export default function StepperPage() {
             <Stepper
               value={value}
               rounded
-              className="k-color-brand-purple"
+              className="cc-color-brand-purple"
               onPlus={increase}
               onMinus={decrease}
             />

@@ -48,7 +48,7 @@ export default function NotificationPage() {
       <Notification
         opened={notificationFull}
         icon={<DemoIcon />}
-        title="Konsta UI"
+        title="CityCrew"
         titleRightText="now"
         subtitle="This is a subtitle"
         text="This is a simple notification message"
@@ -56,7 +56,7 @@ export default function NotificationPage() {
       <Notification
         opened={notificationWithButton}
         icon={<DemoIcon />}
-        title="Konsta UI"
+        title="CityCrew"
         button
         onClick={() => setNotificationWithButton(false)}
         subtitle="Notification with close button"
@@ -65,7 +65,7 @@ export default function NotificationPage() {
       <Notification
         opened={notificationCloseOnClick}
         icon={<DemoIcon />}
-        title="Konsta UI"
+        title="CityCrew"
         titleRightText="now"
         subtitle="Notification with close on click"
         text="Click me to close"
@@ -74,7 +74,7 @@ export default function NotificationPage() {
       <Notification
         opened={notificationCallbackOnClose}
         icon={<DemoIcon />}
-        title="Konsta UI"
+        title="CityCrew"
         titleRightText="now"
         subtitle="Notification with close on click"
         text="Click me to close"
@@ -86,7 +86,7 @@ export default function NotificationPage() {
       <Dialog
         opened={alertOpened}
         onBackdropClick={() => setAlertOpened(false)}
-        title="Konsta UI"
+        title="CityCrew"
         content="Notification closed"
         buttons={
           <DialogButton onClick={() => setAlertOpened(false)}>Ok</DialogButton>
@@ -94,7 +94,7 @@ export default function NotificationPage() {
       />
       <Block inset strong className="space-y-4">
         <p>
-          Konsta UI comes with simple Notifications component that allows you to
+          CityCrew comes with simple Notifications component that allows you to
           show some useful messages to user and request basic actions.
         </p>
         <div className="grid gap-4 sm:grid-cols-2">

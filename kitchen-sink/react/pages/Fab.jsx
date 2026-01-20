@@ -29,7 +29,7 @@ export default function FabPage() {
 
       {/* Right Top */}
       <Fab
-        className="fixed right-safe-4 ios:top-safe-19 material:top-safe-18 z-20 k-color-brand-red"
+        className="fixed right-safe-4 ios:top-safe-19 material:top-safe-18 z-20 cc-color-brand-red"
         icon={PlusIcon}
       />
 
@@ -38,13 +38,13 @@ export default function FabPage() {
 
       {/* Left Bottom */}
       <Fab
-        className="fixed left-safe-4 bottom-safe-4 z-20 k-color-brand-green"
+        className="fixed left-safe-4 bottom-safe-4 z-20 cc-color-brand-green"
         icon={PlusIcon}
       />
 
       {/* Left Top */}
       <Fab
-        className="fixed left-safe-4 ios:top-safe-19 material:top-safe-18 z-20 k-color-brand-yellow"
+        className="fixed left-safe-4 ios:top-safe-19 material:top-safe-18 z-20 cc-color-brand-yellow"
         icon={PlusIcon}
       />
 

@@ -55,10 +55,10 @@ export default function ProgressbarPage() {
 
       <BlockTitle>Colors</BlockTitle>
       <Block strong inset className="space-y-4">
-        <Progressbar className="k-color-brand-red" progress={0.25} />
-        <Progressbar className="k-color-brand-green" progress={0.5} />
-        <Progressbar className="k-color-brand-yellow" progress={0.75} />
-        <Progressbar className="k-color-brand-purple" progress={1} />
+        <Progressbar className="cc-color-brand-red" progress={0.25} />
+        <Progressbar className="cc-color-brand-green" progress={0.5} />
+        <Progressbar className="cc-color-brand-yellow" progress={0.75} />
+        <Progressbar className="cc-color-brand-purple" progress={1} />
       </Block>
     </Page>
   );

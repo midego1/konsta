@@ -28,7 +28,7 @@ export default function SidePanelsPage() {
 
       <Block inset strong className="space-y-4">
         <p>
-          Konsta UI comes with 2 panels (on left and on right), both are
+          CityCrew comes with 2 panels (on left and on right), both are
           optional. You can put absolutely anything inside: data lists, forms,
           custom content, etc.
         </p>

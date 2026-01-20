@@ -71,7 +71,7 @@ export default function RangeSliderPage() {
         <ListItem
           innerChildren={
             <Range
-              className="k-color-brand-red"
+              className="cc-color-brand-red"
               value={red}
               step={1}
               min={0}
@@ -83,7 +83,7 @@ export default function RangeSliderPage() {
         <ListItem
           innerChildren={
             <Range
-              className="k-color-brand-green"
+              className="cc-color-brand-green"
               value={green}
               step={1}
               min={0}
@@ -95,7 +95,7 @@ export default function RangeSliderPage() {
         <ListItem
           innerChildren={
             <Range
-              className="k-color-brand-blue"
+              className="cc-color-brand-blue"
               value={blue}
               step={1}
               min={0}

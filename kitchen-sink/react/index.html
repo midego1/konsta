@@ -10,11 +10,20 @@
   <meta name="theme-color" content="#fff">
   <link rel="icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <title>Konsta UI React</title>
+  <title>CityCrew React</title>
 </head>
 
 <body>
   <div id="app"></div>
+  <script>
+    // Prevent flash of wrong theme on page load
+    (function() {
+      const theme = localStorage.getItem('theme');
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
   <script type="module" src="./index.js"></script>
 </body>
 

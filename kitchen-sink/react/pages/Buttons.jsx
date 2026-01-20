@@ -21,26 +21,26 @@ export default function ButtonsPage() {
       <Block strong inset className="space-y-2">
         <div className="grid grid-cols-3 gap-x-4">
           <Button>Button</Button>
-          <Button className="k-color-brand-red">Button</Button>
+          <Button className="cc-color-brand-red">Button</Button>
           <Button>Button</Button>
         </div>
         <div className="grid grid-cols-3 gap-x-4">
           <Button outline>Outline</Button>
-          <Button className="k-color-brand-red" outline>
+          <Button className="cc-color-brand-red" outline>
             Outline
           </Button>
           <Button outline>Outline</Button>
         </div>
         <div className="grid grid-cols-3 gap-x-4">
           <Button clear>Clear</Button>
-          <Button className="k-color-brand-red" clear>
+          <Button className="cc-color-brand-red" clear>
             Clear
           </Button>
           <Button clear>Clear</Button>
         </div>
         <div className="grid grid-cols-3 gap-x-4">
           <Button tonal>Tonal</Button>
-          <Button className="k-color-brand-red" tonal>
+          <Button className="cc-color-brand-red" tonal>
             Tonal
           </Button>
           <Button tonal>Tonal</Button>
@@ -51,7 +51,7 @@ export default function ButtonsPage() {
       <Block strong inset className="space-y-2">
         <div className="grid grid-cols-3 gap-x-4">
           <Button rounded>Button</Button>
-          <Button rounded className="k-color-brand-green">
+          <Button rounded className="cc-color-brand-green">
             Button
           </Button>
           <Button rounded>Button</Button>
@@ -60,7 +60,7 @@ export default function ButtonsPage() {
           <Button rounded outline>
             Outline
           </Button>
-          <Button rounded outline className="k-color-brand-green">
+          <Button rounded outline className="cc-color-brand-green">
             Outline
           </Button>
           <Button rounded outline>
@@ -71,7 +71,7 @@ export default function ButtonsPage() {
           <Button rounded clear>
             Clear
           </Button>
-          <Button rounded clear className="k-color-brand-green">
+          <Button rounded clear className="cc-color-brand-green">
             Clear
           </Button>
           <Button rounded clear>
@@ -84,7 +84,7 @@ export default function ButtonsPage() {
       <Block strong inset className="space-y-2">
         <div className="grid grid-cols-3 gap-x-4">
           <Button large>Button</Button>
-          <Button large className="k-color-brand-yellow">
+          <Button large className="cc-color-brand-yellow">
             Button
           </Button>
           <Button large rounded>
@@ -95,7 +95,7 @@ export default function ButtonsPage() {
           <Button large outline>
             Outline
           </Button>
-          <Button large outline className="k-color-brand-yellow">
+          <Button large outline className="cc-color-brand-yellow">
             Outline
           </Button>
           <Button large rounded outline>
@@ -106,7 +106,7 @@ export default function ButtonsPage() {
           <Button large clear>
             Clear
           </Button>
-          <Button large clear className="k-color-brand-yellow">
+          <Button large clear className="cc-color-brand-yellow">
             Clear
           </Button>
           <Button large rounded clear>

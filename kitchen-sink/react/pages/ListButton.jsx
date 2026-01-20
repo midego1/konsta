@@ -22,7 +22,7 @@ export default function ListButtonPage() {
         <ListButton>Button 3</ListButton>
       </List>
       <List inset strong>
-        <ListButton className="k-color-brand-red">Red Button</ListButton>
+        <ListButton className="cc-color-brand-red">Red Button</ListButton>
       </List>
     </Page>
   );

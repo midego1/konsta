@@ -106,7 +106,7 @@ export default function ListPage() {
         <ListItem
           link
           header="Email"
-          title="john@konsta"
+          title="john@citycrew"
           footer="Work"
           after="Edit"
           media={<DemoIcon />}
